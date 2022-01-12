@@ -13,7 +13,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
         format: winston.format.combine(
           winston.format.timestamp(),
           winston.format.ms(),
-          nestWinstonModuleUtilities.format.nestLike('MyApp', { prettyPrint: true }),
+          nestWinstonModuleUtilities.format.nestLike('GR1D-API', { prettyPrint: true }),
         ),
       }),
       // other transports...
